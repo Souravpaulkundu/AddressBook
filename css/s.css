@@ -1,0 +1,42 @@
+
+div.home{
+	position:relative;
+	color:white;
+    background-color:#333;
+    list-style-type: none;
+	height: 48px;
+    width: 1084px;
+	left: 0;
+	top:0;
+	}
+
+li{  list-style-type: none;
+	color:red;
+    float: left;
+    border-right:1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li:last-child a {
+	position :relative;
+    border-right: none;
+	float:right;
+	color:red;
+}
+
+
+.backg{
+	
+	
+background-color:#E9EBEE;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
